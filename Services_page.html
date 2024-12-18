@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Начинающий верстальщик - Михаил</title>
+    <link rel="icon" href="Pictures/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Шапка -->
+    <header> 
+        <!-- Лого + ФИО -->
+        <article>
+            <img class="logo" src="Pictures/logo.png" alt="Логотип">
+                <p> Группа ЭФБО-02-23 </p>
+                <p> Карсаков Михаил Андреевич </p>
+        </article>
+        <!-- Навигация по сайту -->
+        <nav>
+            <a href="Main_page.html"> Главная </a> 
+            <a href="First_sem_page.html"> Первый семестр </a>
+            <a> Второй семестр </a> 
+            <a class="now-page"> Услуги </a>
+            <a> Авторизация </a>
+        </nav>
+    </header>
+    <!-- Основа страницы -->
+    <main>
+        <!-- Навигация по странице -->
+        <nav>
+            <dl>
+                <dt>Навигация по странице</dt>
+                <dd><a href="#web-design">Разработка веб-приложений</a></dd>
+                <dd><a href="#portfolio">Мое портфолио</a></dd>
+            </dl>
+        </nav>
+        <!-- Основная информация страницы -->
+        <div>
+            <h2 id="web-design">Разработка веб-приложений</h2>
+            <article class="product_cards_container">
+                <div class="product_card"> <img src="Pictures/template_site.png" alt="Сайт-визитка"> 
+                    <p>Сайт-визитка</p>
+                    <div class="button"><a href="#" class="open_pop_up">Заказать</a></div>
+                        <div class="pop_up">
+                            <div class="pop_up_container">
+                                <div class="pop_up_body">
+                                    <h2>Разработка веб-приложения</h2>
+                                    <p>Заполните форму и мы обязательно с вами свяжемся в ближайшее время для уточнения деталей</p>
+                                    <form action="">
+                                        <input type="text" name="name" placeholder="Петров Петр Петрович" required>
+                                        <input type="email" name="email" placeholder="test@mail.ru" required>
+                                        <input type="tel" name="phone" placeholder="+7-999-999-99-99" required pattern="[0-9]+">
+                                        <input type="text" name="comment" placeholder="Комментарии" class="comments" required>
+                                        <button type="submit">Отправить заявку</button>
+                                    </form>
+                                <div class="pop_up_close">&#10006;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_card"> <img src="Pictures/corporation.png" alt="Корпоративный сайт"> 
+                    <p>Корпоративный сайт</p>
+                    <div class="button"><a href="#" class="open_pop_up">Заказать</a></div>
+                        <div class="pop_up">
+                            <div class="pop_up_container">
+                                <div class="pop_up_body">
+                                    <h2>Разработка веб-приложения</h2>
+                                    <p>Заполните форму и мы обязательно с вами свяжемся в ближайшее время для уточнения деталей</p>
+                                    <form action="">
+                                        <input type="text" placeholder="Петров Петр Петрович">
+                                        <input type="email" placeholder="test@mail.ru" required>
+                                        <input type="tel" placeholder="+7-999-999-99-99" required>
+                                        <input type="text" placeholder="Комментарии" class="comments">
+                                        <button type="submit">Отправить заявку</button>
+                                    </form>
+                                <div class="pop_up_close">&#10006;</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_card"> <img src="Pictures/internet_shop.png" alt="Интернет-магазин"> 
+                    <p>Интернет-магазин</p>
+                    <div class="button"><a href="#" class="open_pop_up">Заказать</a></div>
+                        <div class="pop_up">
+                            <div class="pop_up_container">
+                                <div class="pop_up_body">
+                                    <h2>Разработка веб-приложения</h2>
+                                    <p>Заполните форму и мы обязательно с вами свяжемся в ближайшее время для уточнения деталей</p>
+                                    <form action="">
+                                        <input type="text" placeholder="Петров Петр Петрович">
+                                        <input type="email" placeholder="test@mail.ru" required>
+                                        <input type="tel" placeholder="+7-999-999-99-99" required>
+                                        <input type="text" placeholder="Комментарии" class="comments">
+                                        <button type="submit">Отправить заявку</button>
+                                    </form>
+                                <div class="pop_up_close">&#10006;</div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <script src="Main.js"></script>
+            </article>
+            <section>
+                <p> С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки систем массового участия. Разнообразный и богатый опыт рамки и место обучения кадров способствует подготовке и реализации направлений прогрессивного развития.
+Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
+С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки систем массового участия. Разнообразный и богатый опыт рамки и место обучения кадров способствует подготовке и реализации направлений прогрессивного развития. </p>
+                </section>
+            <h2 id="portfolio">Мое портфолио</h2>
+                <p> С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки систем массового участия. Разнообразный и богатый опыт рамки и место обучения кадров способствует подготовке и реализации направлений прогрессивного развития.
+Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
+С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки систем массового участия. Разнообразный и богатый опыт рамки и место обучения кадров способствует подготовке и реализации направлений прогрессивного развития.С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки систем массового участия. Разнообразный и богатый опыт рамки и место обучения кадров способствует подготовке и реализации направлений прогрессивного развития.
+Повседневная практика показывает, что постоянное информационно-пропагандистское обеспечение нашей деятельности играет важную роль в формировании системы обучения кадров, соответствует насущным потребностям.
+С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой интересный эксперимент проверки систем массового участия. Разнообразный и богатый опыт рамки и место обучения кадров способствует подготовке и реализации направлений прогрессивного развития. </p>
+
+        </div>
+    </main>
+    <footer>
+        @ Карсаков Михаил Андреевич, 2024
+        <a href="https://t.me/F00FEL" target="_blank"><img class="right-align" src="Pictures/telegramm.png" alt="Мой телеграмм"></a>
+        <a href="https://vk.com/mixa_krutyak" target="_blank"><img class="right-align" src="Pictures/vk.png" alt="Мой ВК"></a>
+    </footer>
+</body>
+</html>
